@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; padding: 30px; }
+
+select { padding: 8px; font-size: 16px; }
+
+.resultado { margin-top: 20px; font-size: 18px; font-weight: bold; color: #c0392b; }

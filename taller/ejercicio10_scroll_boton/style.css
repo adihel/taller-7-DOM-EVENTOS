@@ -1,0 +1,10 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+
+.menu { position: fixed; top: 0; width: 100%; background: #333; transition: background 0.3s; }
+.menu a { display: inline-block; color: white; padding: 18px 20px; text-decoration: none; }
+.menu.scroll { background: #e67e22; }
+
+.bloque { height: 500px; padding: 80px 20px 0; border-bottom: 1px solid #ccc; }
+
+.subir { display: none; position: fixed; bottom: 25px; right: 25px; padding: 14px 18px;
+         font-size: 18px; border: none; border-radius: 50%; background: #04aa6d; color: white; cursor: pointer; }

@@ -1,0 +1,20 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+
+.menu { background: #333; overflow: hidden; }
+.menu a { float: left; color: white; padding: 14px 16px; text-decoration: none; }
+.menu a:hover { background: #ddd; color: black; }
+.menu a.activo { background: #04aa6d; }
+.menu a.icono { display: none; }
+
+.texto { padding: 16px; }
+
+/* Pantallas pequeñas (celular) */
+@media (max-width: 600px) {
+  .menu a { display: none; }
+  .menu a.activo { display: block; }
+  .menu a.icono { display: block; float: right; }
+
+  /* Esta clase la pone y quita JavaScript */
+  .menu.responsive a { display: block; float: none; text-align: left; }
+  .menu.responsive a.icono { position: absolute; right: 0; top: 0; }
+}
