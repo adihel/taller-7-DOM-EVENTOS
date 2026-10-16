@@ -8,13 +8,13 @@ body { margin: 0; font-family: Arial, sans-serif; }
 
 .texto { padding: 16px; }
 
-/* Pantallas pequeñas (celular) */
+
 @media (max-width: 600px) {
   .menu a { display: none; }
   .menu a.activo { display: block; }
   .menu a.icono { display: block; float: right; }
 
-  /* Esta clase la pone y quita JavaScript */
+
   .menu.responsive a { display: block; float: none; text-align: left; }
   .menu.responsive a.icono { position: absolute; right: 0; top: 0; }
 }
